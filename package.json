@@ -1,0 +1,25 @@
+{
+  "name": "io.ionic.starter",
+  "version": "0.0.1",
+  "displayName": "MyApp",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "~4.5.3",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "git+https://github.com/apache/cordova-plugin-statusbar.git",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "ionic-plugin-keyboard": "^2.2.1"
+  }
+}
